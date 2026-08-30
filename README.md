@@ -21,4 +21,9 @@ networkx 3.3
 
 > This Framework is partially using the PANDA opensource code from https://github.com/jeongwhanchoi/PANDA and part of GRAGOD: https://github.com/GraGODs/GraGOD/tree/develop
 
-The file run_GCTS run all the framework, train+ test, on an experiment, for several trials. 
+Quick file description:
+-  run_GCTS: run all the framework, train+ test, on an experiment, for several trials. 
+- hyperparamater : contain all the hyperparamaters setting
+- dataset folder : contain all the preprocessing steps of each datasets used
+- experiment contain the training and evaluation main file
+config file in gcts folder : contain the different path required to link the datasets to the framework
